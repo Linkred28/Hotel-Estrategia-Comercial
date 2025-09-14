@@ -3,7 +3,7 @@ import React from 'react';
 
 export const tools = [
     {
-        name: 'Dynamics/HubSpot',
+        name: 'Dynamics/HubSpot CRM (CRM – sistema para gestionar clientes y ventas)',
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" viewBox="0 0 24 24">
                 <polygon points="12,2.5 21,7.5 21,16.5 12,21.5 3,16.5 3,7.5" fill="#6C2F92" />
@@ -20,7 +20,7 @@ export const tools = [
         ),
     },
     {
-        name: 'SEO/SEM',
+        name: 'SEO/SEM (posicionamiento orgánico y publicidad en buscadores)',
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 24 24" fill="#0078D4">
                 <path d="M12 2l10 10l-10 10V15H2v-6h10V2z" />

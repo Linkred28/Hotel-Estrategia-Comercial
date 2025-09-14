@@ -43,19 +43,19 @@ const App: React.FC = () => {
             {/* Slide 2: Common Problems */}
             <section id="slide2" className="slide bg-white">
                 <div className="slide-content">
-                    <h2 className="text-4xl md:text-6xl font-bold text-dark mb-16 text-center">Áreas de Oportunidad:</h2>
+                    <h2 className="text-4xl md:text-6xl font-bold text-dark mb-16 text-center">Áreas de oportunidad:</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         <div className="bg-light p-8 rounded-xl shadow-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 duration-300 border border-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-20 h-20 text-primary-blue mb-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" /></svg>
-                            <p className="text-dark text-xl md:text-2xl font-semibold">Alta dependencia de OTAs con comisiones elevadas.</p>
+                            <p className="text-dark text-xl md:text-2xl font-semibold">El hotel depende demasiado de OTAs (Online Travel Agencies – plataformas como Booking o Expedia que cobran comisión por cada reserva).</p>
                         </div>
                         <div className="bg-light p-8 rounded-xl shadow-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 duration-300 border border-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-20 h-20 text-primary-blue mb-6"><path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 00-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" /></svg>
-                            <p className="text-dark text-xl md:text-2xl font-semibold">Web sin motor de reservas directo ni SEO competitivo.</p>
+                            <p className="text-dark text-xl md:text-2xl font-semibold">No existe motor de reservas directo ni SEO que posicione la página propia.</p>
                         </div>
                         <div className="bg-light p-8 rounded-xl shadow-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 duration-300 border border-gray-200">
                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-20 h-20 text-primary-blue mb-6"><path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 21.75a8.967 8.967 0 01-5.454-1.31m5.454 0L13.988 15.51a23.848 23.848 0 00-5.454-1.31M13.988 15.51a23.848 23.848 0 01-5.454-1.31A8.967 8.967 0 016 21.75a8.967 8.967 0 01-5.454-1.31M6 21.75L3.143 17.082m2.857 0L6 15.51a23.848 23.848 0 015.454-1.31m5.454 0L14.988 17.082" /></svg>
-                           <p className="text-dark text-xl md:text-2xl font-semibold">Segmentos valiosos desatendidos (corporativo, turismo médico, nómadas digitales).</p>
+                           <p className="text-dark text-xl md:text-2xl font-semibold">Se desaprovechan segmentos clave: corporativos, turismo médico y nómadas digitales.</p>
                         </div>
                     </div>
                 </div>
@@ -68,15 +68,15 @@ const App: React.FC = () => {
                     <div className="max-w-5xl mx-auto space-y-8">
                         <div className="bg-light p-6 rounded-xl shadow-lg flex items-center space-x-6 border border-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V6a2.25 2.25 0 012.25-2.25h3.75a2.25 2.25 0 012.25 2.25v.75m-10.5 6v6a2.25 2.25 0 002.25 2.25h3.75a2.25 2.25 0 002.25-2.25v-6" /><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75h3.75m-3.75 3h3.75M9 18h3.75m-3.75-9h3.75" /></svg>
-                            <p className="text-dark text-xl md:text-2xl font-semibold">Rediseñar la web con motor de reservas directo y SEO local.</p>
+                            <p className="text-dark text-xl md:text-2xl font-semibold">Rediseñamos la web con motor de reservas directo y SEO local.</p>
                         </div>
                         <div className="bg-light p-6 rounded-xl shadow-lg flex items-center space-x-6 border border-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" /></svg>
-                            <p className="text-dark text-xl md:text-2xl font-semibold">Desarrollar paquetes segmentados.</p>
+                            <p className="text-dark text-xl md:text-2xl font-semibold">Creamos paquetes específicos por segmento: corporativos nearshoring, turismo médico y nómadas digitales.</p>
                         </div>
                         <div className="bg-light p-6 rounded-xl shadow-lg flex items-center space-x-6 border border-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" /></svg>
-                            <p className="text-dark text-xl md:text-2xl font-semibold">Tablero de ventas con ocupación OTA vs Directo.</p>
+                            <p className="text-dark text-xl md:text-2xl font-semibold">Montamos tableros de ventas que muestran ocupación por canal (OTA vs directo) en tiempo real.</p>
                         </div>
                     </div>
                 </div>
@@ -89,15 +89,19 @@ const App: React.FC = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         <div className="bg-light p-8 rounded-xl shadow-lg flex flex-col items-center text-center border border-gray-200 h-full justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue mb-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                            <h3 className="font-semibold text-xl md:text-2xl text-dark">15% menos dependencia de OTAs en un año.</h3>
+                            <h3 className="font-semibold text-xl md:text-2xl text-dark">
+                                Menor dependencia de OTAs
+                                <br />
+                                (–15% en 12 meses).
+                            </h3>
                         </div>
                         <div className="bg-light p-8 rounded-xl shadow-lg flex flex-col items-center text-center border border-gray-200 h-full justify-center">
                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue mb-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                            <h3 className="font-semibold text-xl md:text-2xl text-dark">Ingresos más estables con convenios directos.</h3>
+                            <h3 className="font-semibold text-xl md:text-2xl text-dark">Ingresos más estables por convenios directos con empresas.</h3>
                         </div>
                         <div className="bg-light p-8 rounded-xl shadow-lg flex flex-col items-center text-center border border-gray-200 h-full justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue mb-6"><path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639l4.43-7.108a1.012 1.012 0 011.59-.444l4.223 2.943a1.012 1.012 0 001.215 0l4.223-2.943a1.012 1.012 0 011.59.444l4.43 7.108a1.012 1.012 0 010 .639l-4.43 7.108a1.012 1.012 0 01-1.59.444l-4.223-2.943a1.012 1.012 0 00-1.215 0l-4.223-2.943a1.012 1.012 0 01-1.59-.444L2.036 12.322z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                            <h3 className="font-semibold text-xl md:text-2xl text-dark">Mejor posicionamiento digital.</h3>
+                            <h3 className="font-semibold text-xl md:text-2xl text-dark">Visibilidad diferenciada en Google y redes.</h3>
                         </div>
                     </div>
                 </div>
@@ -107,12 +111,12 @@ const App: React.FC = () => {
             {/* Slide 5: Deliverables */}
             <section id="slide5" className="slide bg-primary-dark">
                 <div className="slide-content">
-                    <h2 className="text-4xl md:text-6xl font-bold text-white mb-12 text-center">📦 Entregables:</h2>
+                    <h2 className="text-4xl md:text-6xl font-bold text-white mb-12 text-center">📦 Entregables (con contexto):</h2>
                     <div className="max-w-4xl mx-auto space-y-6">
                         {[
-                            "Web renovada + motor de reservas.",
-                            "Paquetes de estancias.",
-                            "Tablero de ingresos por canal."
+                            "Web renovada con motor de reservas → permite captar clientes directamente, reduciendo dependencia y comisiones de OTAs.",
+                            "Paquetes de estancia por segmento → ofrecen propuestas de valor claras y atractivas para corporativos, turismo médico y nómadas digitales.",
+                            "Tablero comercial con ingresos por canal → da visibilidad inmediata de qué porcentaje proviene de OTAs vs reservas directas, facilitando decisiones comerciales."
                         ].map((item, index) => (
                             <div key={index} className="bg-light p-6 rounded-lg flex items-center space-x-6 text-left shadow-md transition-all hover:shadow-lg hover:bg-gray-200 border border-gray-200">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10 text-accent-green flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
@@ -129,13 +133,13 @@ const App: React.FC = () => {
                     <h2 className="text-4xl md:text-6xl font-bold text-white mb-16 text-center">📈 KPIs:</h2>
                     <div className="timeline-container">
                         <div className="timeline-item timeline-left">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">% reservas directas vs OTA.</h3></div>
+                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">% de reservas directas vs OTA (mide qué porcentaje de clientes reserva por la web propia frente a agencias en línea).</h3></div>
                         </div>
                         <div className="timeline-item timeline-right">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">Ingresos por segmento.</h3></div>
+                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">Ingresos por segmento (cuánto aporta cada mercado: corporativo, turismo médico o nómadas digitales).</h3></div>
                         </div>
                         <div className="timeline-item timeline-left">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">CAC por canal.</h3></div>
+                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">CAC (Customer Acquisition Cost – cuánto cuesta conseguir un cliente considerando publicidad y esfuerzos comerciales).</h3></div>
                         </div>
                     </div>
                 </div>
