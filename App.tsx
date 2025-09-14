@@ -47,7 +47,8 @@ const App: React.FC = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         <div className="bg-light p-8 rounded-xl shadow-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 duration-300 border border-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-20 h-20 text-primary-blue mb-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" /></svg>
-                            <p className="text-dark text-xl md:text-2xl font-semibold">El hotel depende demasiado de OTAs (Online Travel Agencies – plataformas como Booking o Expedia que cobran comisión por cada reserva).</p>
+                            <h3 className="text-dark text-xl md:text-2xl font-semibold">El hotel depende demasiado de OTAs</h3>
+                            <p className="text-gray-600 text-xl md:text-2xl mt-2">(Online Travel Agencies – plataformas como Booking o Expedia que cobran comisión por cada reserva).</p>
                         </div>
                         <div className="bg-light p-8 rounded-xl shadow-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 duration-300 border border-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-20 h-20 text-primary-blue mb-6"><path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 00-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" /></svg>
@@ -164,7 +165,7 @@ const App: React.FC = () => {
                                 <div className="h-24 w-24 md:h-28 md:w-28 bg-gray-50 rounded-full flex items-center justify-center mb-6">
                                     {tool.icon}
                                 </div>
-                                <span className="font-semibold text-xl text-dark">{tool.name}</span>
+                                <div>{tool.name}</div>
                             </div>
                         ))}
                     </div>
