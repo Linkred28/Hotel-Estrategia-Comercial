@@ -133,13 +133,22 @@ const App: React.FC = () => {
                     <h2 className="text-4xl md:text-6xl font-bold text-white mb-16 text-center">📈 KPIs:</h2>
                     <div className="timeline-container">
                         <div className="timeline-item timeline-left">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">% de reservas directas vs OTA (mide qué porcentaje de clientes reserva por la web propia frente a agencias en línea).</h3></div>
+                            <div className="timeline-content">
+                                <h3 className="text-xl md:text-2xl font-bold text-dark">% de reservas directas vs OTA</h3>
+                                <p className="text-xl md:text-2xl text-gray-600 mt-2">(mide qué porcentaje de clientes reserva por la web propia frente a agencias en línea).</p>
+                            </div>
                         </div>
                         <div className="timeline-item timeline-right">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">Ingresos por segmento (cuánto aporta cada mercado: corporativo, turismo médico o nómadas digitales).</h3></div>
+                             <div className="timeline-content">
+                                <h3 className="text-xl md:text-2xl font-bold text-dark">Ingresos por segmento</h3>
+                                <p className="text-xl md:text-2xl text-gray-600 mt-2">(cuánto aporta cada mercado: corporativo, turismo médico o nómadas digitales).</p>
+                            </div>
                         </div>
                         <div className="timeline-item timeline-left">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">CAC (Customer Acquisition Cost – cuánto cuesta conseguir un cliente considerando publicidad y esfuerzos comerciales).</h3></div>
+                             <div className="timeline-content">
+                                <h3 className="text-xl md:text-2xl font-bold text-dark">CAC</h3>
+                                <p className="text-xl md:text-2xl text-gray-600 mt-2">(Customer Acquisition Cost – cuánto cuesta conseguir un cliente considerando publicidad y esfuerzos comerciales).</p>
+                            </div>
                         </div>
                     </div>
                 </div>
